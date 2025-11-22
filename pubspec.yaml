@@ -30,6 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  get: ^4.6.5
   http: ^0.13.6
   faker: ^2.2.0
   intl: ^0.20.2
