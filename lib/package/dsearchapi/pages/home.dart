@@ -140,7 +140,7 @@ class _HomePageState extends State<HomePage> {
         List<dynamic> listProvinceJson = json.decode(response.body)['value'];
         List<Province> allModelProvince = [];
 
-        // Iterasi dan konversi ke model Province
+        // Iterasi dan konversi ke models Province
         listProvinceJson.forEach((element) {
           allModelProvince.add(
               Province(
@@ -181,7 +181,7 @@ class _HomePageState extends State<HomePage> {
         List<dynamic> listCityJson = json.decode(response.body)['value'];
         List<City> allModelCity = [];
 
-        // Iterasi dan konversi ke model City
+        // Iterasi dan konversi ke models City
         listCityJson.forEach((element) {
           allModelCity.add(
               City(
