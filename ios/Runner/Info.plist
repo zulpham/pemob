@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Untuk mencatat lokasi saat log dibuat.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Untuk mengambil foto sebagai bagian dari log.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Untuk menyimpan foto log.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
